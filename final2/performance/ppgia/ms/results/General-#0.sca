@@ -1,0 +1,74 @@
+version 2
+run General-0-20210601-11:51:18-5676
+attr configname General
+attr datetime 20210601-11:51:18
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 5676
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Network.raspberry.ethernet queueLength:mean 0
+attr interpolationmode none
+attr title "Queue length, mean"
+attr unit ms
+scalar Network.raspberry.ethernet queueLength:timeavg 0
+attr interpolationmode none
+attr title "Queue length, timeavg"
+attr unit ms
+scalar Network.raspberry.ethernet queueLength:max 0
+attr interpolationmode none
+attr title "Queue length, max"
+attr unit ms
+scalar Network.raspberry.ethernet busy:timeavg 0
+attr interpolationmode none
+attr title "Busy, timeavg"
+attr unit ms
+scalar Network.raspberry.ethernet busy:max 1
+attr interpolationmode none
+attr title "Busy, max"
+attr unit ms
+scalar Network.raspberry.ethernet dropped:count 11428
+attr interpolationmode none
+attr title "Dropped jobs, count"
+attr unit ms
+scalar Network.raspberry.ethernet dropped:timeavg 0
+attr interpolationmode none
+attr title "Dropped jobs, timeavg"
+attr unit ms
+scalar Network.raspberry.processor queueLength:mean 0
+attr interpolationmode none
+attr title "Queue length, mean"
+attr unit ms
+scalar Network.raspberry.processor queueLength:timeavg 0
+attr interpolationmode none
+attr title "Queue length, timeavg"
+attr unit ms
+scalar Network.raspberry.processor queueLength:max 0
+attr interpolationmode none
+attr title "Queue length, max"
+attr unit ms
+scalar Network.raspberry.processor busy:timeavg 0.87492343367152
+attr interpolationmode none
+attr title "Busy, timeavg"
+attr unit ms
+scalar Network.raspberry.processor busy:max 1
+attr interpolationmode none
+attr title "Busy, max"
+attr unit ms
+scalar Network.raspberry.processor dropped:count 11427
+attr interpolationmode none
+attr title "Dropped jobs, count"
+attr unit ms
+scalar Network.raspberry.processor dropped:timeavg 0
+attr interpolationmode none
+attr title "Dropped jobs, timeavg"
+attr unit ms
+

@@ -1,0 +1,49 @@
+file 1586249 1622559089                                         
+version 2
+run General-0-20210601-11:51:18-5676
+attr configname General
+attr datetime 20210601-11:51:18
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 5676
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 0 Network.raspberry.ethernet queueLength:vector ETV
+attr interpolationmode none
+attr title "Queue length, vector"
+attr unit ms
+vector 1 Network.raspberry.ethernet busy:vector ETV
+attr interpolationmode none
+attr title "Busy, vector"
+attr unit ms
+vector 2 Network.raspberry.processor queueLength:vector ETV
+attr interpolationmode none
+attr title "Queue length, vector"
+attr unit ms
+vector 3 Network.raspberry.processor busy:vector ETV
+attr interpolationmode none
+attr title "Busy, vector"
+attr unit ms
+vector 4 Network.raspberry.ethernet dropped:vector ETV
+attr interpolationmode none
+attr title "Dropped jobs, vector"
+attr unit ms
+vector 5 Network.raspberry.processor dropped:vector ETV
+attr interpolationmode none
+attr title "Dropped jobs, vector"
+attr unit ms
+0	1162 196149 0 57137 0 4571.2 11429 0 0 0 0
+1	197311 392289 0 57138 0 4571.2 22857 0 1 11428 11428
+2	589600 196131 0 57134 0 4570.8 11428 0 0 0 0
+3	785731 408254 0 57135 0 4571.15 22855 0 1 11427 11427
+4	1193985 196140 2 57137 0.4 4571.2 11428 0 0 0 0
+5	1390125 196122 4 57134 0.4 4570.8 11427 0 0 0 0
+
